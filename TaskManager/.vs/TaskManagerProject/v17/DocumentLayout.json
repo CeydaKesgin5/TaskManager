@@ -1,0 +1,176 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{132729F3-F6FE-4094-8960-A7C134FAA38F}|TaskManager\\TaskManagerProject.csproj|C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\taskmanager\\controllers\\taskmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{132729F3-F6FE-4094-8960-A7C134FAA38F}|TaskManager\\TaskManagerProject.csproj|solutionrelative:taskmanager\\controllers\\taskmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A6D50DF-9D7A-4D6B-8914-D49368B4945F}|Entities\\Entities.csproj|c:\\users\\ceydak\\desktop\\taskmanager\\taskmanager\\entities\\concrete\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A6D50DF-9D7A-4D6B-8914-D49368B4945F}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB86EF5-DB63-4195-BA08-3313B42FD479}|Core_\\Core_.csproj|c:\\users\\ceydak\\desktop\\taskmanager\\taskmanager\\core_\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB86EF5-DB63-4195-BA08-3313B42FD479}|Core_\\Core_.csproj|solutionrelative:core_\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB86EF5-DB63-4195-BA08-3313B42FD479}|Core_\\Core_.csproj|c:\\users\\ceydak\\desktop\\taskmanager\\taskmanager\\core_\\dataaccess\\entityframework\\efentityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB86EF5-DB63-4195-BA08-3313B42FD479}|Core_\\Core_.csproj|solutionrelative:core_\\dataaccess\\entityframework\\efentityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BEA4905-32C9-4E88-8967-7C7C3357A884}|Business\\Business.csproj|c:\\users\\ceydak\\desktop\\taskmanager\\taskmanager\\business\\concrete\\taskservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BEA4905-32C9-4E88-8967-7C7C3357A884}|Business\\Business.csproj|solutionrelative:business\\concrete\\taskservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BEA4905-32C9-4E88-8967-7C7C3357A884}|Business\\Business.csproj|c:\\users\\ceydak\\desktop\\taskmanager\\taskmanager\\business\\abstract\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BEA4905-32C9-4E88-8967-7C7C3357A884}|Business\\Business.csproj|solutionrelative:business\\abstract\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889E1ACA-304C-48A7-8F5C-9078E530150C}|DataAccess\\DataAccess.csproj|c:\\users\\ceydak\\desktop\\taskmanager\\taskmanager\\dataaccess\\abstract\\itaskdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889E1ACA-304C-48A7-8F5C-9078E530150C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\itaskdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889E1ACA-304C-48A7-8F5C-9078E530150C}|DataAccess\\DataAccess.csproj|c:\\users\\ceydak\\desktop\\taskmanager\\taskmanager\\dataaccess\\concrete\\entityframework\\eftaskdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889E1ACA-304C-48A7-8F5C-9078E530150C}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\eftaskdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Entities\\Concrete\\TaskManager.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\TaskManager.cs",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Entities\\Concrete\\TaskManager.cs",
+              "RelativeToolTip": "Entities\\Concrete\\TaskManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:30:19.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Core_\\DataAccess\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "Core_\\DataAccess\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Core_\\DataAccess\\IEntityRepository.cs",
+              "RelativeToolTip": "Core_\\DataAccess\\IEntityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:30:11.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Business\\Concrete\\TaskServiceManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\TaskServiceManager.cs",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Business\\Concrete\\TaskServiceManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\TaskServiceManager.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:29:20.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Business\\Abstract\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Business\\Abstract\\ITaskService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ITaskService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:29:18.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITaskDal.cs",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\DataAccess\\Abstract\\ITaskDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\ITaskDal.cs",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\DataAccess\\Abstract\\ITaskDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\ITaskDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:06:24.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EfTaskDal.cs",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\DataAccess\\Concrete\\EntityFramework\\EfTaskDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfTaskDal.cs",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\DataAccess\\Concrete\\EntityFramework\\EfTaskDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfTaskDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T08:03:40.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EfEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Core_\\DataAccess\\EntityFramework\\EfEntityRepository.cs",
+              "RelativeDocumentMoniker": "Core_\\DataAccess\\EntityFramework\\EfEntityRepository.cs",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Core_\\DataAccess\\EntityFramework\\EfEntityRepository.cs",
+              "RelativeToolTip": "Core_\\DataAccess\\EntityFramework\\EfEntityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T07:15:05.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\TaskManager\\Controllers\\TaskManagerController.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Controllers\\TaskManagerController.cs",
+              "ToolTip": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\TaskManager\\Controllers\\TaskManagerController.cs",
+              "RelativeToolTip": "TaskManager\\Controllers\\TaskManagerController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAGAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T18:42:40.297Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

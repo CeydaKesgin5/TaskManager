@@ -1,29 +1,27 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Threading.Tasks;
-using TaskManager.Context;
+using TaskManagerClass.Business.Abstract;
+using TaskManagerClass.DataAccess.Concrete;
 
-namespace TaskManager.Controllers
+namespace TaskManagerClass.Controllers
 {
     [ApiController]
     [Route("api/controller")]
     public class TaskManagerController : ControllerBase
     {
-        private readonly TaskManagerContext _context;
 
-        public TaskManagerController(TaskManagerContext context)
+        private readonly ITaskService _taskService;
+  
+        public TaskManagerController(ITaskService taskService)
         {
-            _context = context;
+            _taskService = taskService;
         }
-
 
         [HttpPost(Name = "CreateTask")]
         public async Task<IActionResult> CreateTask(Task task)
         {
-            _context.Tasks.Add(task);
-            await _context.SaveChangesAsync();
+            _taskService.Add(task);
             return Ok(task);
+            
         }
 
         [HttpGet(Name = "GetAllTask")]
@@ -31,9 +29,8 @@ namespace TaskManager.Controllers
         {
             try
             {
-            //TaskManagerContext context = new();
 
-                List<Task> tasks =await _context.Tasks.ToListAsync();
+                List<Task> tasks = _taskService.GetAll();
        
                 return Ok(tasks);
             }
@@ -47,11 +44,8 @@ namespace TaskManager.Controllers
         [HttpGet("[action]/{id}", Name = "GetTask")]
         public async Task<IActionResult> GetTask(int id)
         {
-            Task task = await _context.Tasks.Where(t => t.Id == id).SingleOrDefaultAsync();
-           // TaskManager task = await _context.TaskManager.SingleOrDefaultAsync(t => t.Id == id);
 
-
-            //await context.TaskManager.ToListAsync();
+            Task task= _taskService.GetById(id);
             if (task == null)
             {
                 return NotFound($"Task with Id = {id} not found.");
@@ -65,19 +59,15 @@ namespace TaskManager.Controllers
         [HttpGet("[action]/{CategoryID}", Name = "GetTasksByCategory")]
         public async Task<IActionResult> GetTasksByCategory(int CategoryID)
         {
-            //TaskManager tasks = await _context.TaskManager.FirstOrDefaultAsync(t => t.CategoryID == CategoryID);
 
-            List<Task> tasks = await _context.Tasks.Where(t => t.CategoryID == CategoryID).ToListAsync();
+            var task = _taskService.GetByCategoryId(CategoryID);
 
-
-
-            //await context.TaskManager.ToListAsync();
-            if (tasks == null)
+            if (task == null)
             {
                 return NotFound($"No tasks found for CategoryID = {CategoryID}");
             }
 
-            return Ok(tasks);
+            return Ok(task);
         }
 
 
@@ -85,39 +75,29 @@ namespace TaskManager.Controllers
         [HttpPut("{id}", Name = "UpdateTask")]
         public async Task<IActionResult> UpdateTask(int id,Task updatedTask)
         {
-            Task task = await _context.Tasks.FirstOrDefaultAsync(t => t.Id == id);
-         
+
+            var task = _taskService.GetById(id);
 
             if (task == null)
             {
                 return NotFound($"Task with Id = {id} not found.");
             }
+            updatedTask.Id = id;
 
-            task.TaskName = updatedTask.TaskName;
-            task.Status= updatedTask.Status;
-            task.PriorityLevel= updatedTask.PriorityLevel;
-            task.ProjectName= updatedTask.ProjectName;
-            task.CategoryID= updatedTask.CategoryID;
-            task.Description= updatedTask.Description;
-
-           _context.Tasks.Update(task);
-            await _context.SaveChangesAsync();
-            return Ok(id);
+            var updated = _taskService.Update(updatedTask);
+            return Ok(updated);
         }
 
 
         [HttpDelete("{id}", Name = "DeleteTask")]
         public async Task <IActionResult> DeleteTask(int id)
         {
-            Task task= await _context.Tasks.FirstOrDefaultAsync(t=>t.Id == id);
 
+            Task task=_taskService.DeleteById(id);
             if (task == null)
             {
                 return NotFound($"Task with Id = {id} not found.");
             }
-
-            _context.Tasks.Remove(task);
-            await _context.SaveChangesAsync();
 
             return Ok(id);
         }
@@ -125,3 +105,4 @@ namespace TaskManager.Controllers
 
     }
 }
+

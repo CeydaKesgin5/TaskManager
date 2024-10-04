@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TaskManager.Context;
+using TaskManagerClass.DataAccess.Concrete;
 
 #nullable disable
 
-namespace TaskManager.Migrations
+namespace TaskManagerProject.Migrations
 {
     [DbContext(typeof(TaskManagerContext))]
     partial class TaskManagerContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace TaskManager.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("TaskManager.TaskManager", b =>
+            modelBuilder.Entity("Task", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -48,16 +48,16 @@ namespace TaskManager.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Task")
+                    b.Property<string>("TaskName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("TaskManager");
+                    b.ToTable("Tasks");
                 });
 
-            modelBuilder.Entity("TaskManager.UserModel", b =>
+            modelBuilder.Entity("UserModel", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -79,7 +79,7 @@ namespace TaskManager.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserModel");
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

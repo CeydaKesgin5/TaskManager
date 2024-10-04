@@ -1551,6 +1551,64 @@
             "rid": "win"
           }
         }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Core_": "1.0.0",
+          "DataAccess": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
+      "Core_/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Core_.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core_.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Core_": "1.0.0",
+          "Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Core_": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.8"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     }
   },
@@ -4250,10 +4308,34 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Business/1.0.0": {
+      "type": "project",
+      "path": "../Business/Business.csproj",
+      "msbuildProject": "../Business/Business.csproj"
+    },
+    "Core_/1.0.0": {
+      "type": "project",
+      "path": "../Core_/Core_.csproj",
+      "msbuildProject": "../Core_/Core_.csproj"
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Business >= 1.0.0",
+      "Core_ >= 1.0.0",
+      "DataAccess >= 1.0.0",
+      "Entities >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.8",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
@@ -4269,11 +4351,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CeydaK\\Desktop\\Yeni klasör\\TaskManager\\TaskManager\\TaskManager.csproj",
-      "projectName": "TaskManager",
-      "projectPath": "C:\\Users\\CeydaK\\Desktop\\Yeni klasör\\TaskManager\\TaskManager\\TaskManager.csproj",
+      "projectUniqueName": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\TaskManager\\TaskManagerProject.csproj",
+      "projectName": "TaskManagerProject",
+      "projectPath": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\TaskManager\\TaskManagerProject.csproj",
       "packagesPath": "C:\\Users\\CeydaK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CeydaK\\Desktop\\Yeni klasör\\TaskManager\\TaskManager\\obj\\",
+      "outputPath": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\TaskManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4294,7 +4376,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Business\\Business.csproj"
+            },
+            "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Core_\\Core_.csproj": {
+              "projectPath": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Core_\\Core_.csproj"
+            },
+            "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\DataAccess\\DataAccess.csproj"
+            },
+            "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\CeydaK\\Desktop\\TaskManager\\TaskManager\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

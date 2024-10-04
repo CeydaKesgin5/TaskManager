@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
-using TaskManager.Context;
+using TaskManagerClass.DataAccess.Concrete;
 
-namespace TaskManager.Controllers
+namespace TaskManagerClass.Controllers
 {
     [ApiController]
     [Route("api/controller1")]

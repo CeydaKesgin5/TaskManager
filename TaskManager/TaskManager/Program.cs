@@ -3,11 +3,21 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using TaskManager.Context;
+using TaskManagerClass.Business.Abstract;
+using TaskManagerClass.DataAccess.Abstract;
+using TaskManagerClass.DataAccess.Concrete;
+using TaskManagerClass.Business.Concrete;
+using TaskManager.DataAccess.Concrete.EntityFramework;
+using TaskManagerClass.Core.DataAccess.EntityFramework;
+using TaskManagerClass.Core.DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddSingleton<ITaskService, TaskServiceManager>();
+builder.Services.AddSingleton<ITaskDal, EfTaskDal>();
+builder.Services.AddSingleton<IEntityRepository<Task>, EfEntityRepository<Task, TaskManagerContext>>();
 
 
 builder.Services.AddDbContext<TaskManagerContext>(options =>

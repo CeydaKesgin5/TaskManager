@@ -1,0 +1,13 @@
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\bin\Debug\net8.0\Core_.deps.json
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\bin\Debug\net8.0\Core_.dll
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\bin\Debug\net8.0\Core_.pdb
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\Core_.csproj.AssemblyReference.cache
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\Core_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\Core_.AssemblyInfoInputs.cache
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\Core_.AssemblyInfo.cs
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\Core_.csproj.CoreCompileInputs.cache
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\Core_.sourcelink.json
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\Core_.dll
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\refint\Core_.dll
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\Core_.pdb
+C:\Users\CeydaK\Desktop\TaskManager\TaskManager\Core_\obj\Debug\net8.0\ref\Core_.dll
